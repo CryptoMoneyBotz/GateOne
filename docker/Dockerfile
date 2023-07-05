@@ -30,7 +30,7 @@
 #
 ############################################################
 
-FROM ubuntu
+FROM ubuntu:kinetic
 MAINTAINER Dan McDougall <daniel.mcdougall@liftoffsoftware.com>
 
 ENV GATEONE_REPO_URL https://github.com/liftoff/GateOne.git
